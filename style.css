@@ -1,0 +1,11 @@
+body {
+    padding: 50px;
+    font: normal normal 16px/24px "Open Sans",sans-serif;
+    background-color:#182f59;
+    color:white;
+  }
+
+  .btn {
+    background-color:#ecc33d;
+    border-color:#ecc33d;
+  }
