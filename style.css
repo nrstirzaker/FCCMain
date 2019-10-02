@@ -5,7 +5,6 @@ body {
     color:white;
   }
 
-  .btn {
-    background-color:#ecc33d;
-    border-color:#ecc33d;
+  a {
+    color:#ecc33d;
   }
