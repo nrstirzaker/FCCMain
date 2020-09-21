@@ -10,13 +10,16 @@
         function next2ndHandSaleEvent() {
 
             const dates = [
-                new Date("2020-01-21"),
-                new Date("2020-02-28"),
-                new Date("2020-03-27"),
-                new Date("2020-05-22"),
-                new Date("2020-06-19"),
-                new Date("2020-07-10"),
-                new Date("2020-09-27")
+                new Date("2020-09-25"),
+                new Date("2020-10-23"),
+                new Date("2020-11-27"),
+                new Date("2021-01-29"),
+                new Date("2021-02-26"),
+                new Date("2021-03-26"),
+                new Date("2021-04-30"),
+                new Date("2021-05-28"),
+                new Date("2021-06-25"),
+                new Date("2021-07-15")
             ];
 
             const nextDate = dates.find(date => (date > new Date()));
@@ -28,11 +31,17 @@
         function nextMeeting() {
 
             const dates = [
-                new Date("2020-03-04"),
-                new Date("2020-04-01"),
-                new Date("2020-05-06"),
-                new Date("2020-06-03"),
-                new Date("2020-07-01")
+                new Date("2020-10-07"),
+                new Date("2020-11-11"),
+                new Date("2020-12-09"),
+                new Date("2021-01-13"),
+                new Date("2021-02-03"),
+                new Date("2021-03-10"),
+                new Date("2021-04-21"),
+                new Date("2021-05-12"),
+                new Date("2021-06-16"),
+                new Date("2021-07-14")
+
             ];
 
             const nextDate = dates.find(date => (date > new Date()));
@@ -54,12 +63,12 @@
                 obviously meeting on-line. If you wish to join us please email and we will share the connection details
                 <!--<a href="https://www.worplesdonplace.co.uk/">The Worplesdon Place Hotel</a>-->
             </li>
-            <!--<li>Our next <u>2nd hand uniform sale</u> is on <b><span id="2ndHandDate"></span> at 3:15 pm</b></li>-->
+            <li>Our next <u>2nd hand uniform sale</u> is on <b><span id="2ndHandDate"></span> at 3:15 pm</b></li>
             <li>For more information about what we do please email us on <a
                     href="mailto:friendsatchristscollege@gmail.com">friendsatchristscollege@gmail.com</a></li>
         </ul>
         <script>
-            //document.getElementById("2ndHandDate").innerHTML = moment(next2ndHandSaleEvent()).format("dddd Do MMMM");
+            document.getElementById("2ndHandDate").innerHTML = moment(next2ndHandSaleEvent()).format("dddd Do MMMM");
             document.getElementById("nextMeeting").innerHTML = moment(nextMeeting()).format("dddd Do MMMM");
         </script>
 </body>
